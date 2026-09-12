@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PhoneListen" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#007AFF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#F5F5F7</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

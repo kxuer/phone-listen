@@ -1,0 +1,42 @@
+# =====================
+# Python (windows-listener)
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 语音识别模型（体积大，自动下载，不入库）
+windows-listener/model/
+# 录音文件
+windows-listener/recordings/
+
+# =====================
+# Android (android-app)
+# =====================
+# Gradle 构建产物
+android-app/.gradle/
+android-app/app/build/
+android-app/build/
+android-app/local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Android Studio / IntelliJ
+android-app/.idea/
+*.iml
+*.ipr
+*.iws
+
+# =====================
+# 通用
+# =====================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp

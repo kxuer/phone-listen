@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下：红色，表示正在录音 -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#E53935" />
+            <size android:width="200dp" android:height="200dp" />
+        </shape>
+    </item>
+
+    <!-- 默认：蓝色 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#007AFF" />
+            <size android:width="200dp" android:height="200dp" />
+        </shape>
+    </item>
+
+</selector>
